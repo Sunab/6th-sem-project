@@ -1,0 +1,33 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #222;
+    color: white;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .sub-menu {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .sidebar-item:hover .sub-menu {
+    display: block;
+  }
+  
+  .sub-item {
+    padding: 5px 0;
+    cursor: pointer;
+  }
